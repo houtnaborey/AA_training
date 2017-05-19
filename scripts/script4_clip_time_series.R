@@ -27,7 +27,7 @@ library(rgeos)
 ##########################################################################################################################################################################
 
 #################### SET WORKING ENVIRONMENT
-rootdir <- "/home/dannunzio/Documents/cambodia/"
+rootdir <- "D:/Training/AA_Change_15-19_May_2017/Data/khm_ws_20170515/"
 setwd(rootdir)
 
 #### Name of the directory where your Landsat data is
@@ -44,7 +44,7 @@ dir.create(dest_dir)
 # Preparation of files ----------------------------------------------------
 
 # ## Read the datafile and setup the correct names for the variables
-pts <- read.csv("/home/dannunzio/Downloads/cambodia_CE_2017-05-18.csv")
+pts <- read.csv("../../khm_ws_20170515/results/cambodia_CE_2017-05-18.csv")
 
 head(pts)
 names(pts)
